@@ -1,5 +1,6 @@
 var trex, trex_running, trex_collided, gameOverImage, restartImage;
 var ground, invisibleGround, groundImage, gameOver, restart;
+var jumpSound, dieSound, milestoneSound;
 
 //initiate Game STATEs
 var PLAY = 1;
@@ -29,6 +30,8 @@ function preload(){
   
   gameOverImage = loadImage("gameOver.png");
   restartImage = loadImage("restart.png");
+  
+   
 }
 
 function setup() {
